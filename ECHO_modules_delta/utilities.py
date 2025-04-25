@@ -446,6 +446,11 @@ def filter_by_geometry(points, df):
         (points_gdf.geometry.y <= max_lat)
     ]
     
+    # Filter more by creating a polygon using the points to get the points inside the polygon
+    polygon = Polygon(points)
+    filtered_points = filtered_points[filtered_points.geometry.intersects(polygon)]
+    
+    
     return filtered_points
 
 def aggregate_by_facility(records, program, other_records = False, api=False, token=None):

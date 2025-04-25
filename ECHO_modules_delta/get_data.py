@@ -444,8 +444,15 @@ def get_echo_data_delta_api(sql, index_field=None, table_name=None, token=None, 
     attempt = 0
     while attempt < retries:
         try:
-            response = requests.get(f"{API_SERVER}/tables-download/{table_name}", params=params, headers=headers, stream=True)
-
+            response = requests.get(f"{API_SERVER}/echo/{table_name}", params=params, headers=headers, stream=True)
+            content_disposition = response.headers.get('Content-Disposition')
+            
+            # Set filename from Content-Disposition header if available
+            if content_disposition:
+                parts = content_disposition.split(';')
+                for part in parts:
+                    if "filename=" in part:
+                        output_file = part.split('=')[1].strip().strip('"')
             if response.status_code == 200:
                 print("200 OK: Data retrieved successfully.")
                 
