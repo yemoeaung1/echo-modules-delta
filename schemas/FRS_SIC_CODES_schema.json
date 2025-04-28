@@ -1,0 +1,29 @@
+{
+    "last_modified": "Wed, 02 Apr 2025 02:41:01 ",
+    "schema": [
+        {
+            "COLUMN_NAME": "pgm_sys_id",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "pgm_sys_acrnm",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "sic_code",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "registry_id",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        }
+    ]
+}

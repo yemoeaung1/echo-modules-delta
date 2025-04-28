@@ -1,0 +1,71 @@
+{
+    "last_modified": "Wed, 02 Apr 2025 02:41:02 ",
+    "schema": [
+        {
+            "COLUMN_NAME": "submissionyearquarter",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "pwsid",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "geo_id",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "area_type_code",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "tribal_code",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "state_served",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "ansi_entity_code",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "zip_code_served",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "city_served",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "county_served",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "last_reported_date",
+            "ORIGINAL_DATA_TYPE": "date",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        }
+    ]
+}

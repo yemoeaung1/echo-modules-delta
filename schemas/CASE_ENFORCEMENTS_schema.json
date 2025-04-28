@@ -1,0 +1,155 @@
+{
+    "last_modified": "Wed, 02 Apr 2025 02:41:01 ",
+    "schema": [
+        {
+            "COLUMN_NAME": "activity_id",
+            "ORIGINAL_DATA_TYPE": "num",
+            "SPARK_DATA_TYPE": "LongType()",
+            "PANDAS_DATA_TYPE": "int64"
+        },
+        {
+            "COLUMN_NAME": "activity_name",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "state_code",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "region_code",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "fiscal_year",
+            "ORIGINAL_DATA_TYPE": "num",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "case_number",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "case_name",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "activity_type_code",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "activity_type_desc",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "activity_status_code",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "activity_status_desc",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "activity_status_date",
+            "ORIGINAL_DATA_TYPE": "date",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "lead",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "case_status_date",
+            "ORIGINAL_DATA_TYPE": "date",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "doj_docket_nmbr",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "enf_outcome_code",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "enf_outcome_desc",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "total_penalty_assessed_amt",
+            "ORIGINAL_DATA_TYPE": "num",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "total_cost_recovery_amt",
+            "ORIGINAL_DATA_TYPE": "num",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "total_comp_action_amt",
+            "ORIGINAL_DATA_TYPE": "num",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "hq_division",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "branch",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "voluntary_self_disclosure_flag",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "multimedia_flag",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "enf_summary_text",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        }
+    ]
+}

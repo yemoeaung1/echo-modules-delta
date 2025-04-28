@@ -1,0 +1,101 @@
+{
+    "last_modified": "Tue, 01 Apr 2025 00:10:26 ",
+    "schema": [
+        {
+            "COLUMN_NAME": "pwsid",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "pws_name",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "city_served",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "state",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "state_name",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "pws_type_code",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "pws_type_short",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "source_water",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "pws_size",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "population_served_count",
+            "ORIGINAL_DATA_TYPE": "num",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "fiscal_year",
+            "ORIGINAL_DATA_TYPE": "num",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "enforcement_date",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "enforcement_category",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "description",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "agency",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "enforcement_id",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        }
+    ]
+}

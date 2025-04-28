@@ -1,0 +1,119 @@
+{
+    "last_modified": "Tue, 01 Apr 2025 00:10:26 ",
+    "schema": [
+        {
+            "COLUMN_NAME": "pgm_sys_id",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "registry_id",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "facility_name",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "street_address",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "city",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "county_name",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "state",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "zip_code",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "epa_region",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "sic_codes",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "naics_codes",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "facility_type_code",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "air_pollutant_class_code",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "air_pollutant_class_desc",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "air_operating_status_code",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "air_operating_status_desc",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "current_hpv",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "local_control_region_code",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "local_control_region_name",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        }
+    ]
+}

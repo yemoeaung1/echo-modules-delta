@@ -1,0 +1,71 @@
+{
+    "last_modified": "Wed, 02 Apr 2025 02:41:01 ",
+    "schema": [
+        {
+            "COLUMN_NAME": "id_number",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "activity_location",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "enforcement_identifier",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "enforcement_type",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "enforcement_desc",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "enforcement_agency",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "enforcement_action_date",
+            "ORIGINAL_DATA_TYPE": "date",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "pmp_amount",
+            "ORIGINAL_DATA_TYPE": "num",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "fmp_amount",
+            "ORIGINAL_DATA_TYPE": "num",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "fsc_amount",
+            "ORIGINAL_DATA_TYPE": "num",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "scr_amount",
+            "ORIGINAL_DATA_TYPE": "num",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        }
+    ]
+}

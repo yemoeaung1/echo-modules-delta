@@ -1,0 +1,311 @@
+{
+    "last_modified": "Wed, 02 Apr 2025 02:41:00 ",
+    "schema": [
+        {
+            "COLUMN_NAME": "activity_id",
+            "ORIGINAL_DATA_TYPE": "number",
+            "SPARK_DATA_TYPE": "LongType()",
+            "PANDAS_DATA_TYPE": "int64"
+        },
+        {
+            "COLUMN_NAME": "external_permit_nmbr",
+            "ORIGINAL_DATA_TYPE": "varchar",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "version_nmbr",
+            "ORIGINAL_DATA_TYPE": "number",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "perm_feature_id",
+            "ORIGINAL_DATA_TYPE": "number",
+            "SPARK_DATA_TYPE": "LongType()",
+            "PANDAS_DATA_TYPE": "int64"
+        },
+        {
+            "COLUMN_NAME": "perm_feature_nmbr",
+            "ORIGINAL_DATA_TYPE": "varchar",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "perm_feature_type_code",
+            "ORIGINAL_DATA_TYPE": "varchar",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "limit_set_id",
+            "ORIGINAL_DATA_TYPE": "number",
+            "SPARK_DATA_TYPE": "LongType()",
+            "PANDAS_DATA_TYPE": "int64"
+        },
+        {
+            "COLUMN_NAME": "limit_set_designator",
+            "ORIGINAL_DATA_TYPE": "varchar",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "limit_set_name",
+            "ORIGINAL_DATA_TYPE": "varchar",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "dmr_comment_text",
+            "ORIGINAL_DATA_TYPE": "varchar",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "limit_set_schedule_id",
+            "ORIGINAL_DATA_TYPE": "number",
+            "SPARK_DATA_TYPE": "LongType()",
+            "PANDAS_DATA_TYPE": "int64"
+        },
+        {
+            "COLUMN_NAME": "limit_set_status_flag",
+            "ORIGINAL_DATA_TYPE": "varchar",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "limit_id",
+            "ORIGINAL_DATA_TYPE": "number",
+            "SPARK_DATA_TYPE": "LongType()",
+            "PANDAS_DATA_TYPE": "int64"
+        },
+        {
+            "COLUMN_NAME": "limit_begin_date",
+            "ORIGINAL_DATA_TYPE": "date",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "limit_end_date",
+            "ORIGINAL_DATA_TYPE": "date",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "nmbr_of_submission",
+            "ORIGINAL_DATA_TYPE": "number",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "nmbr_of_report",
+            "ORIGINAL_DATA_TYPE": "number",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "parameter_code",
+            "ORIGINAL_DATA_TYPE": "varchar",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "parameter_desc",
+            "ORIGINAL_DATA_TYPE": "varchar",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "monitoring_location_code",
+            "ORIGINAL_DATA_TYPE": "varchar",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "stay_type_code",
+            "ORIGINAL_DATA_TYPE": "varchar",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "limit_value_id",
+            "ORIGINAL_DATA_TYPE": "number",
+            "SPARK_DATA_TYPE": "LongType()",
+            "PANDAS_DATA_TYPE": "int64"
+        },
+        {
+            "COLUMN_NAME": "limit_value_type_code",
+            "ORIGINAL_DATA_TYPE": "varchar",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "limit_value_nmbr",
+            "ORIGINAL_DATA_TYPE": "number",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "limit_unit_code",
+            "ORIGINAL_DATA_TYPE": "varchar",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "limit_unit_desc",
+            "ORIGINAL_DATA_TYPE": "varchar",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "standard_unit_code",
+            "ORIGINAL_DATA_TYPE": "varchar",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "standard_unit_desc",
+            "ORIGINAL_DATA_TYPE": "varchar",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "limit_value_standard_units",
+            "ORIGINAL_DATA_TYPE": "number",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "statistical_base_code",
+            "ORIGINAL_DATA_TYPE": "varchar",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "statistical_base_type_code",
+            "ORIGINAL_DATA_TYPE": "varchar",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "limit_value_qualifier_code",
+            "ORIGINAL_DATA_TYPE": "varchar",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "stay_value_nmbr",
+            "ORIGINAL_DATA_TYPE": "number",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "limit_type_code",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "optional_monitoring_flag",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "limit_sample_type_code",
+            "ORIGINAL_DATA_TYPE": "varchar",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "limit_freq_of_analysis_code",
+            "ORIGINAL_DATA_TYPE": "varchar",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "all_months_limit",
+            "ORIGINAL_DATA_TYPE": "varchar",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "jan",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "feb",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "mar",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "apr",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "may",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "jun",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "jul",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "aug",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "sep",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "oct",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "nov",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "dec",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "limit_season_id",
+            "ORIGINAL_DATA_TYPE": "varchar",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        }
+    ]
+}
