@@ -10,12 +10,8 @@ from .DataSetResults import DataSetResults
 from .get_data import get_echo_data_delta, get_echo_data
 from .utilities import get_facs_in_counties, filter_by_geometry
 import json
-from dotenv import load_dotenv
 
-load_dotenv()
-
-JSON_DIR = os.getenv("JSON_DIR_MOUNT_PATH")
-SCHEMA_DIR = os.path.join(JSON_DIR, "schemas") # GITHUB PATH LATER
+SCHEMA_DIR = 'schemas'
 
 class DataSet:
     '''

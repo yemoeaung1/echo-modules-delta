@@ -1,3 +1,6 @@
+from dotenv import load_dotenv
+load_dotenv()
+
 import pdb
 import geopandas
 import os
@@ -5,11 +8,10 @@ import urllib.parse
 import pandas as pd
 import json
 import requests
-from dotenv import load_dotenv
-load_dotenv()
+
 
 DELTA_TABLES_DIR = os.environ.get('DELTA_TABLES_MOUNT_PATH')
-API_SERVER = os.environ.get('API_SERVER')
+API_SERVER = "https://portal.gss.stonybrook.edu/api"
 
 def get_echo_data( sql, index_field=None, table_name=None ):
     '''
@@ -72,7 +74,7 @@ def spatial_selector(units):
       selection = '(\''+str(units)+'\')'
     return selection
 
-def get_huc8_by_states(state_codes, json_file="state_huc8_map.json"):
+def get_huc8_by_states(state_codes, json_file="data/state_huc8_map.json"):
     """
     Returns a combined list of HUC8 codes for the given list of state codes from the JSON mapping file.
     
