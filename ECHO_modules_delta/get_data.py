@@ -528,5 +528,25 @@ def get_echo_data_delta_api(sql, index_field=None, table_name=None, token=None, 
     # Print the updated Pandas DataFrame
     return pd_df
 
+def get_echo_api_access_token():
+    from IPython.display import display, HTML
+    
+    display(HTML(f'<a href="{API_SERVER}/github-auth">Get Token</a>'))
+
+    # Manually paste token
+    token = input("Paste your token: ")
+
+    # Use token
+    response = requests.get(
+        f"{API_SERVER}",
+        headers={"Authorization": f"Bearer {token}"}
+    )
+    print(response.json())
+    if response.status_code != 200:
+        print("Failed to authenticate. Please check your token.")
+        return None
+    return token
+
+
 def try_test():
     print('hellooo')

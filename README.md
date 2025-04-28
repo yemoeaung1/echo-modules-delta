@@ -29,6 +29,34 @@ This will start the services defined in the **echo-delta-compose.yaml** file whi
     docker exec -it echo-modules bash
     ```
 
+### Running Without Local Delta Tables (Using API Server)
+If you do not have Delta tables stored locally, you can still use ECHO Modules by connecting to the ECHO API Server.
+
+1. Create a Python virtual environment:
+    ```bash
+    python3 -m venv venv
+    source venv/bin/activate
+    ```
+
+2. Install the required packages in `requirements.txt`: 
+    ```bash
+    pip install -r requirements.txt
+    ```
+    Ensure Jupyter Lab is installed so you can access the Jupyter Notebook server.
+
+3. Start Jupyter Lab:
+    ```bash
+    jupyter lab
+    ```
+
+4. Generate an access token:
+
+    Use the `get_echo_api_access_token` function to generate an access token from the ECHO API server to authenticate your requests.
+
+    - Follow the API server's authentication instructions to obtain your token.
+
+5. Lastly, set the access token in the notebook by entering the value. You should now be able to use the API server to request data.  
+
 ## Environment Variables
 Add the following variables to a `.env` file for the application to run:
 
