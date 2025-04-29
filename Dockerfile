@@ -38,6 +38,9 @@ RUN apt -qq update
 RUN apt -qq -y install vim curl tree
 RUN mkdir -p /opt/spark/work-dir/epa-data
 
+# COPY ALL THE FILES
+COPY . /opt/spark/work-dir
+
 # Rebuilds the Jupyter Lab configuration
 CMD ["bash", "-c", "jupyter lab clean && jupyter lab run"]
 

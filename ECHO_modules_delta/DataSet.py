@@ -10,8 +10,10 @@ from .DataSetResults import DataSetResults
 from .get_data import get_echo_data_delta, get_echo_data
 from .utilities import get_facs_in_counties, filter_by_geometry
 import json
+import requests
 
-SCHEMA_DIR = 'schemas'
+SCHEMA_DIR = os.environ.get('SCHEMA_DIR')
+API_SERVER = "https://portal.gss.stonybrook.edu/api"
 
 class DataSet:
     '''
@@ -91,12 +93,22 @@ class DataSet:
             result.show_chart()
     
     def get_data_delta( self, region_type, region_value, state=None, years=None, api=False, token=None ):
-        
-        if ( not self.last_modified_is_set ):
-            print(self.base_table)
-            with open(os.path.join(SCHEMA_DIR, f"{self.base_table}_schema.json")) as f: # CHANGE THIS TO GITHUB ROUTE
+        print(self.base_table)
+        if api:
+            headers = {
+            "Authorization": f"Bearer {token}",
+            }
+            
+            response = requests.get(f"{API_SERVER}/echo/schema/{self.base_table}", headers=headers)
+            if response.status_code != 200:
+                raise Exception(f"Failed to fetch schema: {response.status_code} - {response.text}")
+            
+            data = response.json()      
+        else:
+            with open(os.path.join(SCHEMA_DIR, f"{self.base_table}_schema.json")) as f: # MOVE THIS TO AN API SCHEMA, AS ENDPOINT
                 data = json.load(f)
                 
+        if ( not self.last_modified_is_set ):
             last_modified = data['last_modified']  # Now this will work
             self.last_modified = datetime.strptime(last_modified, "%a, %d %b %Y %H:%M:%S ")
             self.last_modified_is_set = True

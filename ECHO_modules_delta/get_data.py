@@ -1,5 +1,5 @@
-from dotenv import load_dotenv
-load_dotenv()
+# from dotenv import load_dotenv
+# load_dotenv()
 
 import pdb
 import geopandas
@@ -357,8 +357,6 @@ def read_file( base, type, state, region ):
     return program_data
 
 
-from pyspark.sql import SparkSession
-from delta import *
 
 def get_echo_data_delta(sql, index_field=None, table_name=None, api=False, token=None):
     try:
@@ -371,6 +369,9 @@ def get_echo_data_delta(sql, index_field=None, table_name=None, api=False, token
                 f"Run get token cell to get token"
             ) from None  # Cleaner traceback
         
+        from pyspark.sql import SparkSession
+        from delta import configure_spark_with_delta_pip
+
         # Initialize Spark session
         builder = SparkSession.builder \
             .master("local[*]") \
@@ -422,10 +423,12 @@ def get_echo_data_delta(sql, index_field=None, table_name=None, api=False, token
         print(f"Error: {e}")
         return None
 
-import requests
-from tqdm import tqdm
+# import requests
+# from tqdm import tqdm
 
 def get_echo_data_delta_api(sql, index_field=None, table_name=None, token=None, backoff_factor=2, retries=5):
+    import requests
+    from tqdm import tqdm
     
     # Read the Delta table into a DataFrame
     if not table_name:
@@ -513,19 +516,6 @@ def get_echo_data_delta_api(sql, index_field=None, table_name=None, token=None, 
             pd_df.set_index( index_field, inplace=True)
         except (KeyError, pd.errors.EmptyDataError):
             pass
-    # if (table_name is not None):
-    #     try:
-    #         print("table name:" ,table_name)
-    #         # df = spark.read.format("delta").load(f'/opt/spark/epa-data/data-lake/files/{table_name}')
-    #         # df.createOrReplaceTempView(table_name)
-    #         # result_df = spark.sql(sql)
-
-    #         # print("Data last updated: " + last_modified) # Print the last modified date for each file we get
-             
-    #     except:
-    #         print("Data last updated: Unknown")
-
-    # Print the updated Pandas DataFrame
     return pd_df
 
 def get_echo_api_access_token():
